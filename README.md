@@ -1,1 +1,1 @@
-# blog-next
+# Blog created with Next.js
