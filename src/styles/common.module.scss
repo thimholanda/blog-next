@@ -1,0 +1,20 @@
+.container{
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.iconsContainer{
+  margin-top: 1.5rem;
+  display: flex;
+  color: var(--gray-300);
+
+  & > div + div{
+    margin-left: 1.5rem;
+  }
+
+
+  svg{
+    margin-right: .500rem;
+  }
+}

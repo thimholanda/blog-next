@@ -1,0 +1,40 @@
+.posts{
+ a{
+   display: block;
+
+   & + a{
+     margin-top:4rem;
+   }
+
+   h2{
+     font-size: 1.75rem;
+     line-height: 2.5rem;
+     color: var(--gray-100);
+     font-weight: bold;
+     transition: color .2s;
+   }
+
+   p{
+     font-size: 1.125rem;
+     line-height: 1.6rem;
+     color: var(--gray-200);
+
+     margin-top: .5rem;
+   }
+
+   &:hover h2{
+     color: var(--purple-500)
+   }
+ }
+}
+
+.btnShowMorePosts{
+  display: block;
+  font-size: 1.125rem;
+  color: var(--purple-500);
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  margin: 3rem 0
+
+}
